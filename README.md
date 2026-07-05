@@ -113,3 +113,38 @@ The storyboard includes:
 - Final Housing Market Analysis Dashboard
 
 This sequential approach helps users understand individual trends before viewing the complete dashboard, making the analysis more organized and easier to interpret.
+
+
+
+
+## 📊 Performance Testing – Amount of Data Loaded
+
+The **Amount of Data Loaded** test was performed to verify that the housing dataset was successfully imported into Tableau and was ready for analysis. The cleaned dataset was loaded without any errors, and Tableau correctly recognized all available fields and records.
+
+The successful loading of the dataset ensured that the data was available for creating worksheets, dashboards, and storyboards. A preview of the imported data confirmed that the required rows and columns were accessible for further visualization and analysis.
+
+### Results
+
+- **Dataset:** Cleaned_Housing_Data.csv
+- **Rows Loaded:** 10,000
+- **Fields Loaded:** 32
+- **Loading Status:** Successfully Loaded
+- **Performance:** Passed
+
+> **Note:** The dataset was successfully loaded into Tableau and validated using the Data Source preview before proceeding with dashboard and storyboard development.
+
+
+
+## 🔍 Performance Testing – Utilization of Filters
+
+Interactive filters were implemented in the Tableau dashboard to improve data exploration. Users can filter housing data based on the **Number of Bedrooms**, allowing the dashboard to dynamically update and display only the relevant records. The filtering functionality responded correctly and enhanced the overall usability of the dashboard.
+
+### Results
+
+- Filter Applied: Number of Bedrooms
+- Dashboard Response: Dynamic
+- Data Updated Successfully
+- Performance: Passed
+
+
+
