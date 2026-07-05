@@ -21,5 +21,15 @@ This project presents an interactive Tableau dashboard to analyze housing market
 - Larger flat areas are associated with higher sale prices.
 - Houses with more bedrooms generally have higher average sale prices.
 
-## Author
-Siddhi Mishra
+## 📖 Storyboard
+
+The storyboard was created in Tableau to present the housing market analysis in a clear and logical sequence. Each story point focuses on a specific aspect of the dataset, allowing users to explore the relationship between different housing features and sale prices.
+
+The storyboard includes:
+
+- Average Sale Price vs Number of Bedrooms
+- Average Sale Price vs Overall Grade
+- Average Sale Price vs Flat Area
+- Final Housing Market Analysis Dashboard
+
+This sequential approach helps users understand individual trends before viewing the complete dashboard, making the analysis more organized and easier to interpret.
