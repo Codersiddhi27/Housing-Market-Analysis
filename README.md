@@ -108,7 +108,7 @@ This project documentation explains the three Tableau sheets created in the work
 
 ---
 
-# Sheet 1: Distribution of House Age by Renovation Status
+#  Distribution of House Age by Renovation Status
 
 ## Description & Purpose
 
@@ -128,7 +128,7 @@ The objective of this sheet is to analyze the distribution of houses across diff
 
 ---
 
-# Sheet 2: House Age Distribution by Number of Bathrooms, Bedrooms, and Floors
+# House Age Distribution by Number of Bathrooms, Bedrooms, and Floors
 
 ## Description & Purpose
 
@@ -153,7 +153,7 @@ This sheet compares major architectural metrics such as bedrooms, bathrooms, and
 
 ---
 
-# Sheet 3: Price Distribution by Zipcode
+# Price Distribution by Zipcode
 
 ## Description & Purpose
 
