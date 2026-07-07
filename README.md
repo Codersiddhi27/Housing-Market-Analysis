@@ -85,6 +85,99 @@ df.to_csv("housing_data_cleaned.csv", index=False)
 5. Storyboard Design
 6. Data Visualization & Analysis
 
+
+# Tableau Data Visualization Project
+
+## Official Lab Report & Task Documentation
+
+### Technical Framework & Overview
+
+This project documentation explains the three Tableau sheets created in the workbook. The project analyzes core business parameters of a Real Estate Housing Dataset by balancing Dimensions and Measures while following an optimized workflow.
+
+**Technology**
+- Tableau Desktop / Tableau Public (Version 2026.1)
+
+**Data Source**
+- Real Estate Housing Dataset (Structured Fields)
+
+**Core Methodology**
+- Discrete Dimension Mapping
+- Measure Aggregations
+- Custom Marks Card Formatting
+- Interactive Subset Filtering
+
+---
+
+# Sheet 1: Distribution of House Age by Renovation Status
+
+## Description & Purpose
+
+The objective of this sheet is to analyze the distribution of houses across different age groups and identify properties with an active renovation status. A pie chart is used to clearly visualize the proportional distribution.
+
+### Fields Used
+- Age of House (in Years)
+- SUM(Ever Renovated Yes)
+
+### Implementation Steps
+
+1. Changed the visualization type to **Pie Chart**.
+2. Converted **Age of House (in Years)** into a **Discrete Dimension** and placed it on the **Color** shelf.
+3. Added the same field to the **Label** shelf to display age values.
+4. Added **SUM(Ever Renovated Yes)** to both **Angle** and **Size** shelves.
+5. Applied filters using the **Age of House** field for better data control.
+
+---
+
+# Sheet 2: House Age Distribution by Number of Bathrooms, Bedrooms, and Floors
+
+## Description & Purpose
+
+This sheet compares major architectural metrics such as bedrooms, bathrooms, and floors across different house age groups using a grouped bar chart.
+
+### Fields Used
+- Age of House (in Years)
+- Measure Names
+- Measure Values
+
+### Implementation Steps
+
+1. Added **Age of House (in Years)** to the **Columns** shelf as a discrete field.
+2. Added **Measure Names** beside it on the Columns shelf.
+3. Placed **Measure Values** on the **Rows** shelf.
+4. Retained only:
+   - SUM(No of Bathrooms)
+   - SUM(No of Bedrooms)
+   - SUM(No of Floors)
+5. Applied **Measure Names** to the **Color** shelf.
+6. Added filters to improve chart readability and formatting.
+
+---
+
+# Sheet 3: Price Distribution by Zipcode
+
+## Description & Purpose
+
+This visualization analyzes property prices across different zip codes to identify location-based pricing trends.
+
+### Fields Used
+- Zipcode
+- SUM(Price)
+
+### Implementation Steps
+
+1. Added **Zipcode** to the geographic axis.
+2. Added **SUM(Price)** to the **Rows** shelf.
+3. Optimized the visualization using the **Marks Card**.
+4. Changed the worksheet display from **Standard** to **Entire View** for maximum visibility.
+
+---
+
+# Analytical Summary
+
+The project applies Tableau visualization best practices across all three sheets. Every worksheet is optimized using **Entire View**, ensuring better space utilization and readability. Discrete color mapping, proper data labeling, and interactive filtering improve the overall analytical experience and make the visualizations clear, accurate, and professional.
+
+
+
 # Housing Market Analysis Dashboard
 
 ## Project Overview
