@@ -70,6 +70,12 @@ df.columns = (
 df.to_csv("housing_data_cleaned.csv", index=False)
 ```
 
+
+
+
+
+
+tableau URL:- https://public.tableau.com/app/profile/siddhi.mishra5827/viz/alllll_17834943390490/Sheet1?publish=yes
 ---
 
 
